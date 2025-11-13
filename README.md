@@ -1,4 +1,3 @@
-
 ## Next.js Dashboard — Learning Project
 
 A small, component-driven dashboard application built while following the Next.js App Router learning path. The project demonstrates:
@@ -11,8 +10,7 @@ A small, component-driven dashboard application built while following the Next.j
 
 Good for experimenting with Next.js conventions and practicing layout patterns.
 
-Getting started
----------------
+## Getting started
 
 Install dependencies (this repository uses `pnpm` in the course, but `npm` or `yarn` will also work):
 
@@ -28,24 +26,21 @@ pnpm dev
 # open http://localhost:3000
 ```
 
-Helpful commands
-----------------
+## Helpful commands
 
 - `pnpm dev`: run Dev server
 - `pnpm build`: build for production
 - `pnpm start`: start built app
 
-Project structure (high level)
-------------------------------
+## Project structure (high level)
 
 - `app/` — App Router pages and layouts
-	- `app/page.tsx` — Landing page
-	- `app/dashboard/` — Dashboard area with nested pages
+  - `app/page.tsx` — Landing page
+  - `app/dashboard/` — Dashboard area with nested pages
 - `app/ui/` — Reusable UI components (logo, nav, buttons, etc.)
 - `app/lib/` — small helpers and placeholder data
 
-Contributing
-------------
+## Contributing
 
 This repository is intended as an educational resource. Feel free to:
 
@@ -53,7 +48,6 @@ This repository is intended as an educational resource. Feel free to:
 - Improve components and accessibility
 - Open an issue or create a PR with suggested changes
 
-License
--------
+## License
 
 This project is a personal/learning project derived from the Next.js learn examples. Use it freely for learning and experimentation.
